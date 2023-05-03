@@ -5,6 +5,7 @@ import {BsChevronDown} from "react-icons/bs"
 export const Container = styled.div`
 width: 100%;
 max-width: 477px;
+min-width: 300px;
 height: 100%;
 max-height: 70px;
 padding: 4px;
@@ -16,10 +17,12 @@ background: rgba(255, 255, 255, 0.03);
 border: 1px solid rgba(255, 255, 255, 0.18);
 border-radius: 89px;
 
-
+@media (max-width:1200px) {
+  
+    max-height:60px;
+}
 @media (max-width:600px) {
 width: 100%;
-max-width: 377px;
 max-height: 50px;
 }
 `
@@ -84,15 +87,12 @@ display:flex;
 justify-content: center;
 align-items: center;
 box-sizing: border-box;
-width: 100%;
+aspect-ratio: 1/1;
 height: 100%;
-max-width: 70px;
 max-height: 70px;
 border-radius: 89px;
 background: linear-gradient(180deg, #107BEE 0%, #359DFD 100%);
-    @media (max-width: 850px) {
-        width: 75px;
-    }
+
 `
 export const Icon = styled(AiOutlineSend)`
     color: #ffff;

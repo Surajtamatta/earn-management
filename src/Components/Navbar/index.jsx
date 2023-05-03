@@ -10,7 +10,6 @@ import {
   SocialIcons,
   SocialItems,
   SocialLink,
-  Icon,
   MenuIcon,
   MenubarIcon,
   CrossbarIcon,
@@ -40,24 +39,24 @@ const Navbar = () => {
       </Navmenu>
 
       </Wrapper>
-      <WrapIcons>
-      <SocialIcons>
+      
+      <WrapIcons click={click}>
+      <SocialIcons  >
         {Socialdata.map((item)=>{
           return(
             <SocialItems key={item.id}>
-            <SocialLink to={item.url}>
-              <Icon src={item.Icon}></Icon>
-            </SocialLink>
+            <SocialLink to={item.url}> <item.Icon/> </SocialLink>
             </SocialItems>
           )
         })
 
         }
-      </SocialIcons>
+      </SocialIcons> 
+      </WrapIcons>
+      
       <MenuIcon onClick={handleClick}>
               { click ? <CrossbarIcon /> : <MenubarIcon/>}
       </MenuIcon>
-      </WrapIcons>
     </Nav>
   )
 }

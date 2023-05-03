@@ -1,5 +1,5 @@
-import discordIcon from "../../assets/discordIcon.png"
-import twitterIcon from "../../assets/twitterIcon.png"
+import { FaTwitterIcon,FaDiscordIcon } from "../../style/NavbarStyle"
+
 export const Navdata = [
     {
         id:1,
@@ -21,12 +21,13 @@ export const Navdata = [
 export const Socialdata=[
     {
         id:1,
-        Icon:discordIcon,
+        Icon:FaTwitterIcon,
         url:'www.discord.com'
+
     },
     {
         id:2,
-        Icon:twitterIcon,
+        Icon:FaDiscordIcon,
         url:'www.twitter.com'
     },
 ]

@@ -6,6 +6,7 @@ import Contact from './Pages/Contact';
 import {Routes,Route} from "react-router-dom";
 import GlobalStyle from './style/GlobalStyle';
 import Main from "./Pages/Main"
+import './fonts/GraphikMedium.otf'; 
 
 const App=()=> {
   return (
@@ -13,7 +14,6 @@ const App=()=> {
     <GlobalStyle/>
       <Routes>
           <Route path='./' element={<Home/>}/>
-          <Route path='./Home' element={<Home/>}/>
           <Route path='/About' element={<About/>}/>
           <Route path='/Blog' element={<Blog/>}/>
           <Route path='/Contact' element={<Contact/>}/>

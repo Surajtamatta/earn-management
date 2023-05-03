@@ -3,7 +3,6 @@ import {
     Container,
     Wrapper,
     CurrencyOne,
-    CoinStacks,
     CurrencyTwo,
     CurrencyThree
 } from "../../style/CurrencyStackStyle"
@@ -12,10 +11,8 @@ const CurrencyStack = () => {
     <Container>
         <Wrapper>
         <CurrencyOne/>
-        <CoinStacks>
         <CurrencyTwo/>
         <CurrencyThree/>
-        </CoinStacks>
         </Wrapper>
     </Container>
   )

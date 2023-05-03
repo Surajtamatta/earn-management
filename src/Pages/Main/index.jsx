@@ -2,8 +2,9 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar';
 import {StyledBackground} from '../../style/mainStyle';
-import Hero from '../../Components/Hero';
-import RoadMap from '../../Components/RoadMap';
+import Hero from '../../views/Hero';
+import RoadMap from '../../views/RoadMap';
+import Footer from '../../Components/Footer';
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
       <Navbar/>
       <Hero/>
       <RoadMap/>
+      <Footer/>
   </StyledBackground>
   );
 };
