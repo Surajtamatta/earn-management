@@ -13,10 +13,10 @@ const InputEmail = () => {
   return (
     <Container>
         <TextInput />
-        <Bar></Bar>
+        <Bar/>
         <Dropdown>
             <Option>Owner</Option>
-            <DropdownIcon></DropdownIcon>
+            <DropdownIcon/>
         </Dropdown>
         <IconBox>
             <Icon/>

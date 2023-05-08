@@ -7,12 +7,12 @@ export const Navdata = [
         url:'./Home'
     },
     {
-        id:1,
+        id:2,
         Name:'Contact',
         url:'./Contact'
     },
     {
-        id:1,
+        id:3,
         Name:'Blog',
         url:'./Blog'
     }

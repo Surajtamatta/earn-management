@@ -14,13 +14,13 @@ export const Container=styled.div`
 `
 export const DescriptionContainer=styled.div`
   width:100%;
-  max-width: 590px;
   display: flex;
+  max-width: 590px;
   justify-content:center;
   align-items: center;
   @media (max-width:1200px) {
     height:550px;
-    max-width: 400px;
+    
   }
   @media (max-width:900px) {
     justify-content:center;
@@ -31,6 +31,7 @@ export const DescriptionContainer=styled.div`
 
 export const Description=styled.div`
   width:100%;
+  min-width: 300px;
   height:450px;
   display: flex;
   padding: 10px;
@@ -38,11 +39,11 @@ export const Description=styled.div`
   flex-direction: column;
   @media (max-width:1200px) {
     height:500px;
-    max-width: 400px;
+    max-width: 450px;
   }
 
   @media (max-width:900px) {
-
+  
   display: flex;
   align-items: center;
   justify-content:space-evenly;
@@ -52,8 +53,6 @@ export const Description=styled.div`
 `
 
 export const Title=styled.h1`
-
-height: 176.9px;
 font-style: normal;
 font-weight:500;
 font-size: 80px;
@@ -62,18 +61,20 @@ line-height: 88px;
 letter-spacing: 0.2px;
 color: #FFFFFF;
 
-
 @media (max-width:1200px) {
   font-size: 60px;
   line-height: 60px;
-  height: 130.9px;
   }
 
 @media (max-width:900px) {
+  font-size: 100px;
+  text-align: center;
+  line-height: 90px;
+  }
+  @media (max-width:500px) {
   font-size: 55px;
   text-align: center;
   line-height: 70px;
-  height: 176.9px;
   }
 `
 

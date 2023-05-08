@@ -5,7 +5,7 @@ import {StyledBackground} from '../../style/mainStyle';
 import Hero from '../../views/Hero';
 import RoadMap from '../../views/RoadMap';
 import Footer from '../../Components/Footer';
-
+import FloatIcon from '../../Components/FloatIcon';
 const Main = () => {
   return (
     <StyledBackground>
@@ -13,6 +13,7 @@ const Main = () => {
       <Hero/>
       <RoadMap/>
       <Footer/>
+      
   </StyledBackground>
   );
 };

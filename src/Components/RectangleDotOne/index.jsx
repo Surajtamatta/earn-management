@@ -6,7 +6,7 @@ import{
 const RectangleDotOne = () => {
   return (
     <Rectangle>
-      <Circle></Circle>
+      <Circle/>
     </Rectangle>
   )
 }

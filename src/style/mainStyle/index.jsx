@@ -12,6 +12,6 @@ export const StyledBackground = styled.div`
   background: linear-gradient(0deg, rgba(48, 165, 202, 0.58), rgba(48, 165, 202, 0.58)), url(${background});
   background-blend-mode: overlay, normal;
   background-size:cover;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 `;
 

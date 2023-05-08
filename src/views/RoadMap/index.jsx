@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {
     MapContainer,
     LeftContainer,
@@ -20,6 +20,7 @@ import RectangleDotTwo from '../../Components/RectancleDotTwo'
 import { RoadMapData } from './RoadMpData'
 import Contact from '../../Components/Contact'
 import MoneroImg from '../../Components/MoneroImg'
+import { useEffect } from 'react'
 const RoadMap = () => {
    const Heading=(item)=>{
          if(item === 0){
@@ -46,20 +47,17 @@ const RoadMap = () => {
       }}
 
 
-
-
   return (
     <MapContainer>
-         
         <LeftContainer>
         </LeftContainer>
         <RoadmapContainer>
         <MoneroImg/>
           {RoadMapData.map((item,index)=>{ 
                return(
-                  <VectorBoxOne propsStyled={index} key={item.id}>
+                  <VectorBoxOne propsStyled={index} key={item.id} >
                       {Heading(index)}
-                        <DescriptionBox  position={index}>
+                        <DescriptionBox  position={index}  >
                         {Even(index)}
                            <InfoBox  place={index} >
                               <Year  year={index}>{item.year}</Year>
@@ -72,10 +70,10 @@ const RoadMap = () => {
             )
          })}
          <VectorBoxTwo>
-            <Contact></Contact>
+            <Contact/>
          </VectorBoxTwo>
         </RoadmapContainer>
-        <RightContainer></RightContainer>
+        <RightContainer/>
     </MapContainer>
   )
 }

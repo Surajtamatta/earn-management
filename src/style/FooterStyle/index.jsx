@@ -10,13 +10,12 @@ justify-content: center;
 align-items: center;
 width: 100%;
 height: 100%;
+min-height:400px;
 max-height:414px;
 border-top: 3px solid rgba(255, 255, 255, 0.21);
-@media (max-width:900px) {
-    max-height:250px;
-    }
-    @media (max-width:500px) {
-    max-height:370px;
+@media (min-width: 650px) and (max-width:900px) {
+    max-height:280px;
+    min-height:auto ;
 }
 `
 export const Wrapper=styled.div`
@@ -38,7 +37,7 @@ align-items: center;
 width: 100%;
 height: 100%;
 max-width: 450px;
-padding: 0  20px;
+padding: 0  18px;
 max-height: 250px;
 @media (max-width:900px) {
     max-width: 350px;
@@ -53,7 +52,7 @@ justify-content:flex-start;
 align-items: center;
 width: 100%;
 height: 100%;
-padding: 0 20px;
+padding: 0 18px;
 max-width: 450px;
 min-width: 150px;
 max-height: 250px; 

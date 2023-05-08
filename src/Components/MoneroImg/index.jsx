@@ -11,9 +11,7 @@ const MoneroImg = () => {
     <Container>
       <OuterImg>
         <InnerRing>
-          <InnerImg>
-
-          </InnerImg>
+          <InnerImg/>
         </InnerRing>
       </OuterImg>
     </Container>

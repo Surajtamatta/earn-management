@@ -12,7 +12,7 @@ background: rgba(29, 51, 64, 0.45);
 backdrop-filter: blur(40px);
 border-radius: 32px;
 @media (max-width: 850px){
-        max-width: 140px;
+        max-width: 130px;
         max-height: 90px;
         border-radius: 20px;
     }

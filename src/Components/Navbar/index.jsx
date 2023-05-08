@@ -28,9 +28,9 @@ const Navbar = () => {
       <Wrapper >
       <Navmenu click={click}>
       {
-				Navdata.map((item,index) => {
+				Navdata.map((item) => {
 					return (
-						<MenuItems key={index}>
+						<MenuItems key={item.id}>
 							<MenuLinks  to={item.url}>{item.Name}</MenuLinks>
 						</MenuItems>
 					)

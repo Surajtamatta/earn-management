@@ -8,10 +8,12 @@ export const Container=styled.div`
     align-items: center;
     width:100%;
     height: 100%;
-    padding:20px;
-    max-width: 1000px;
+    padding:20px 50px;
+    @media (max-width:900px){
+        padding:20px ;
+    }
     @media (max-width:600px) {
-        max-height: 600px;
+        min-height: 600px;
 }
 
 `
@@ -21,11 +23,8 @@ export const Heading=styled.div`
     justify-content:flex-start;
     width: 100%;
     height: 100%;
-    max-width: 900px;
     max-height: 180px;
-    @media (max-width:900px) {
-        
-}
+
 `
 export const Title=styled.h1`
 font-family: 'Outfit';
@@ -40,7 +39,7 @@ font-size: 65px;
 
 }
 @media (max-width:600px) {
-font-size: 50px;
+font-size: 45px;
 line-height: 50px;
 }
 
@@ -68,10 +67,9 @@ export const Wrapper=styled.div`
     height: 100%;
     gap: 10px;
     max-height: 450px;
-    max-width: 900px;
     position: relative;
     @media (max-width:600px) {
-        max-height: 325px;
+        max-height: 350px;
 }
 
 `
@@ -79,7 +77,7 @@ export const ContentOne=styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 40px;
+    gap: 45px;
     width: 100%;
     height: 100%;
     min-width: 125px;
@@ -96,7 +94,7 @@ export const ContentTwo=styled.div`
     position:relative;
     right: -90px;
     justify-content: flex-start;
-    gap:40px;
+    gap:45px;
     width: 100%;
     height: 100%;
     min-width: 145px;
@@ -176,7 +174,7 @@ outline: none;
 border:none ;
 box-shadow: none;
 border-bottom: 1px solid rgba(255, 255, 255, 0.21);
-@media (max-width:600px) {
+@media (max-width:750px) {
     font-size: 12px;
     line-height: 35px;
 }
@@ -199,7 +197,7 @@ color: rgba(255, 255, 255, 0.39);
 
 mix-blend-mode: luminosity;
 border-bottom: 1px solid rgba(255, 255, 255, 0.21);
-@media (max-width:600px) {
+@media (max-width:750px) {
     font-size: 12px;
     line-height:35px;
 }
@@ -220,7 +218,7 @@ box-shadow: none;
 color: rgba(255, 255, 255, 0.39);
 mix-blend-mode: luminosity;
 border-bottom: 1px solid rgba(255, 255, 255, 0.21);
-@media (max-width:600px) {
+@media (max-width:750px) {
     font-size: 12px;
     line-height: 35px;
 }

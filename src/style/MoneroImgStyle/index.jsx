@@ -13,29 +13,26 @@ grid-template: 1fr 6fr 1fr / 1fr 6fr 1fr;
 place-items: center;
 position:absolute;
 right: -160px;
-top: -140px;
+top: -115px;
 background: radial-gradient(41.76% 41.76% at 50% 50%, rgba(0, 56, 255, 0.24) 0%, rgba(0, 133, 255, 0) 100%);
 @media (max-width:1200px){
     right: -110px;
-    top: 100px;
+    top: 90px;
     max-width: 530px;
 
 }
 @media (max-width:850px){
-    right: -75px;
-    top: 150px;
+    right: -80px;
+    top: 120px;
     max-width: 400px;
 }
 @media (max-width:600px){
     right: 0;
-    top:105px;
-}
-@media (max-width:500px){
-    right: 0;
+    top:100px;
 }
 @media (max-width:400px){
     right: 0;
-    top:230px;
+    top:160px;
 }
 `
 export const OuterImg=styled.div`

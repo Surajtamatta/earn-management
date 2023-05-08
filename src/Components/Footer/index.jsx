@@ -17,6 +17,7 @@ import {
   CopyRight,
   JoinDiscord,
 } from '../../style/FooterStyle'
+import FloatIcon from '../FloatIcon'
 
 
 const Footer = () => {
@@ -59,6 +60,7 @@ const Footer = () => {
         </ContainerTwo>
         </Wrapper>
         <CopyRight>@copyright. play 2022</CopyRight>
+        <FloatIcon/>
     </FooterContainer>
   )
 }
