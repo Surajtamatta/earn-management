@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.860a5827.css","mappings":"AACA,WACI,yBAA4B,CAG5B,eAAmB,CAFnB,uHAGJ","sources":["index.css"],"sourcesContent":["\r\n@font-face {\r\n    font-family: 'GraphikMedium';\r\n    src: local('GraphikMedium'),\r\n    url('./fonts/GraphikMedium.otf') format(\"Opentype\");\r\n    font-weight: normal;\r\n}"],"names":[],"sourceRoot":""}

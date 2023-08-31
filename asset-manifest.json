@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/earn-management/static/css/main.860a5827.css",
+    "main.js": "/earn-management/static/js/main.d1f8b58f.js",
+    "static/js/787.48eae987.chunk.js": "/earn-management/static/js/787.48eae987.chunk.js",
+    "static/media/gorillaImg.png": "/earn-management/static/media/gorillaImg.3cb77f36397a38c38565.png",
+    "static/media/background.png": "/earn-management/static/media/background.a6efd5121071b55f4cca.png",
+    "static/media/GraphikMedium.otf": "/earn-management/static/media/GraphikMedium.f58d53eb72d7239d4ca8.otf",
+    "static/media/OuterImg.png": "/earn-management/static/media/OuterImg.304ec95fae2ef14b4e36.png",
+    "static/media/Bitcoin.png": "/earn-management/static/media/Bitcoin.aa7afed2de63371be28e.png",
+    "static/media/Etherium.png": "/earn-management/static/media/Etherium.3cf8f4f14f6142a3d431.png",
+    "static/media/InnerImg.png": "/earn-management/static/media/InnerImg.211fafc102b79340901d.png",
+    "static/media/Bitcoin2.png": "/earn-management/static/media/Bitcoin2.0755f696126365ad27d3.png",
+    "index.html": "/earn-management/index.html",
+    "main.860a5827.css.map": "/earn-management/static/css/main.860a5827.css.map",
+    "main.d1f8b58f.js.map": "/earn-management/static/js/main.d1f8b58f.js.map",
+    "787.48eae987.chunk.js.map": "/earn-management/static/js/787.48eae987.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.860a5827.css",
+    "static/js/main.d1f8b58f.js"
+  ]
+}
